@@ -1,4 +1,5 @@
 import SerieScore from "components/SerieScore";
+import { Link } from "react-router-dom";
 
 
 function SerieCard() {
@@ -17,7 +18,9 @@ function SerieCard() {
             <div className="dsserie-card-bottom-container">
                 <h3>{serie.title}</h3>
                 <SerieScore />
-                <div className="btn btn-primary dsserie-btn">Avaliar</div>
+                <Link to={`/form/${serie.id}`}>
+                    <div className="btn btn-primary dsserie-btn">Avaliar</div>
+                </Link>
             </div>
         </div>
     );
