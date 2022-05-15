@@ -23,7 +23,7 @@ INSERT INTO tb_serie(score, count, title, image) VALUES (0, 0, 'Suits: Homens de
 INSERT INTO tb_serie(score, count, title, image) VALUES (0, 0, 'Dr. House', 'https://www.themoviedb.org/t/p/original/gYXgFP5anlPn3bS5FNsNFZZTmng.jpg');
 INSERT INTO tb_serie(score, count, title, image) VALUES (0, 0, 'Loki', 'https://www.themoviedb.org/t/p/original/kEl2t3OhXc3Zb9FBh1AuYzRTgZp.jpg');
 INSERT INTO tb_serie(score, count, title, image) VALUES (0, 0, 'Round 6', 'https://www.themoviedb.org/t/p/original/6gcHdboppvplmBWxvROc96NJnmm.jpg');
-INSERT INTO tb_serie(score, count, title, image) VALUES (0, 0, 'Komi Can't Communicate', 'https://www.themoviedb.org/t/p/original/p2Hyub0gWdNVnDRc5aC9oYMMXY.jpg');
+INSERT INTO tb_serie(score, count, title, image) VALUES (0, 0, 'Komi Cant Communicate', 'https://www.themoviedb.org/t/p/original/p2Hyub0gWdNVnDRc5aC9oYMMXY.jpg');
 INSERT INTO tb_serie(score, count, title, image) VALUES (0, 0, 'Jovem Sheldon', 'https://www.themoviedb.org/t/p/original/uHa4RJ211SQZucg4EkcmOW8EnIU.jpg');
 INSERT INTO tb_serie(score, count, title, image) VALUES (0, 0, 'NCIS: Investigação Naval', 'https://www.themoviedb.org/t/p/original/6b68fd3p0OpRXJZfZGLQ9Gs7kzl.jpg');
 INSERT INTO tb_serie(score, count, title, image) VALUES (0, 0, 'Big Bang: A Teoria', 'https://www.themoviedb.org/t/p/original/gXLGUSXp3ZLkjwX0x45NXCagiNH.jpg');
