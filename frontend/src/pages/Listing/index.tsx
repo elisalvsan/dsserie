@@ -22,7 +22,7 @@ function Listing() {
     });
 
     useEffect(() => {
-        axios.get(`${BASE_URL}/series?size=12&page=${pageNumber}&sort=title`)
+        axios.get(`${BASE_URL}/series?size=12&page=${pageNumber}&sort=id`)
             .then(response => {
                 const data = response.data as SeriePage;
                 setPage(data);
