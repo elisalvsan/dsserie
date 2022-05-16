@@ -1,16 +1,12 @@
 import SerieScore from "components/SerieScore";
 import { Link } from "react-router-dom";
+import { Serie } from "types/serie";
 
+type Props = {
+    serie : Serie;
+}
 
-function SerieCard() {
-
-    const serie = {
-        id: 1,
-        image: "https://www.themoviedb.org/t/p/original/pW0UCPX9bvBEYoeQ6U4zi4tv9z7.jpg",
-        title: "Halo",
-        count: 2,
-        score: 4.5
-    };
+function SerieCard({serie} : Props) {
 
     return (
         <div>
