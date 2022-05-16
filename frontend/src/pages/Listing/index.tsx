@@ -1,17 +1,26 @@
 import axios from "axios";
 import Pagination from "components/Pagination";
 import SerieCard from "components/SerieCard";
+import { useEffect, useState } from "react";
+import { SeriePage } from "types/serie";
 import { BASE_URL } from './../../utils/requests';
 
 function Listing() {
-   axios.get(`${BASE_URL}/movies?size=12&page=0`)
-        .then(response => {
-            console.log(response.data);
-        }) 
-        
-        return (
+
+    const [pageNumber, setPageNumber] = useState(0);
+
+    useEffect(() => {
+        axios.get(`${BASE_URL}/movies?size=12&page=0`)
+            .then(response => {
+                const data = response.data as SeriePage;
+                setPageNumber(data.number);
+            });
+    }, []);
+
+    return (
 
         <>
+            <p>{pageNumber}</p>
             <Pagination />
 
             <div className="container">
