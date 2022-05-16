@@ -31,7 +31,6 @@ function Listing() {
     }, [pageNumber]);
 
     return (
-
         <>
             <Pagination />
 
@@ -44,13 +43,9 @@ function Listing() {
                         </div>
                     )
                     )}
-
-
                 </div>
             </div>
         </>
-
     );
 }
-
 export default Listing;
